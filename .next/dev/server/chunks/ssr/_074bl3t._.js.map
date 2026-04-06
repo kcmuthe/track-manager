@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/kenyamuthe/task-manager/src/app/components/taskcard.js"],"sourcesContent":["'use client';\n\nexport default function TaskCard({ title, done, id, onToggle }) {\n  return (\n    <div className=\"flex items-center justify-between p-3 border-b\">\n      <span className={done ? 'line-through text-gray-400' : ''}>\n        {title}\n      </span>\n      <button\n        className=\"text-sm text-green-700 hover:underline\"\n        onClick={() => onToggle(id)}\n      >Toggle</button>\n    </div>\n  );\n}\n\n"],"names":["TaskCard","title","done","id","onToggle","className","onClick"],"mappings":";;;;;AAAA;;AAEe,SAASA,SAAS,EAAEC,KAAK,EAAEC,IAAI,EAAEC,EAAE,EAAEC,QAAQ,EAAE;IAC5D,qBACE,8OAAC;QAAIC,WAAU;;0BACb,8OAAC;gBAAKA,WAAWH,OAAO,+BAA+B;0BACpDD;;;;;;0BAEH,8OAAC;gBACCI,WAAU;gBACVC,SAAS,IAAMF,SAASD;0BACzB;;;;;;;;;;;;AAGP"}},
+    {"offset": {"line": 43, "column": 0}, "map": {"version":3,"sources":["file:///Users/kenyamuthe/task-manager/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-ssr']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
+}
